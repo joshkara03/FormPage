@@ -3,6 +3,7 @@ import { Card } from "@/components/ui/card";
 import CalendlyWidget from "./calendly-widget";
 import React from "react";
 import Testimonials from "./testimonials";
+import { TempoLogo } from "./ui/tempo-logo";
 
 export default function BookingPage() {
   return (
@@ -11,9 +12,12 @@ export default function BookingPage() {
         {/* Left Content */}
         <div className="space-y-8">
           <div className="space-y-4">
-            <h1 className="text-6xl font-bold tracking-tight">
-              Book a Session
-            </h1>
+            <div className="flex items-center gap-4">
+              <h1 className="text-6xl font-bold tracking-tight">
+                Book a Session
+              </h1>
+              <TempoLogo className="mt-2 h-14 w-14 text-white" />
+            </div>
             <h2 className="text-4xl font-bold tracking-tight text-[#6448EF]">
               with Our Team
             </h2>

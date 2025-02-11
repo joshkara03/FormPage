@@ -6,25 +6,26 @@ const testimonials = [
     text: "Tempo Labs has completely transformed how we build our frontend. The AI integration is seamless and intuitive.",
     author: "John Doe",
     role: "CTO, TechCorp",
-    initials: "JD",
+    image: "https://api.dicebear.com/7.x/avataaars/svg?seed=john",
   },
   {
     text: "The visual development experience combined with AI is revolutionary. It's exactly what we needed!",
     author: "Alice Smith",
     role: "Lead Developer, StartupX",
-    initials: "AS",
+    image: "https://api.dicebear.com/7.x/avataaars/svg?seed=alice",
   },
   {
     text: "Game-changing platform for our development team. The AI assistance is spot-on.",
     author: "Mike Johnson",
     role: "VP Engineering, TechFlow",
-    initials: "MJ",
+    image: "https://api.dicebear.com/7.x/avataaars/svg?seed=mike",
   },
   {
     text: "The combination of visual editing and AI code generation is brilliant. It's the future of web development.",
     author: "Sarah Chen",
     role: "Frontend Architect, InnovateCo",
-    initials: "SC",
+    image:
+      "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_512.png",
   },
 ];
 
@@ -65,9 +66,11 @@ export default function Testimonials() {
           >
             <p className="text-[#E4E4E7] mb-4 text-lg">"{testimonial.text}"</p>
             <div className="flex items-center gap-3">
-              <div className="h-10 rounded-full bg-[#6448EF] flex items-center justify-center font-medium text-white w-[30] w-10">
-                {testimonial.initials}
-              </div>
+              <img
+                src={testimonial.image}
+                alt={testimonial.author}
+                className="h-10 w-10 rounded-full object-cover"
+              />
               <div>
                 <p className="font-medium text-[#E4E4E7]">
                   {testimonial.author}
