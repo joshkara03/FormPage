@@ -11,16 +11,18 @@ export default function BookingPage() {
       <div className="container mx-auto px-4 py-16 grid md:grid-cols-2 gap-12 relative h-full">
         {/* Left Content */}
         <div className="space-y-8">
-          <div className="space-y-4">
-            <div className="flex items-center gap-4">
-              <h1 className="text-6xl font-bold tracking-tight">
-                Book a Session
-              </h1>
-              <TempoLogo className="mt-2 h-14 w-14 text-white" />
+          <div className="space-y-4 flex flex-col md:flex-row items-center gap-6">
+            <TempoLogo className="mt-4 h-20 w-20 text-white" />
+            <div className="flex flex-col">
+              <div className="flex items-center gap-4">
+                <h1 className="text-6xl font-bold tracking-tight">
+                  Book a Session
+                </h1>
+              </div>
+              <h2 className="text-4xl font-bold tracking-tight text-[#6448EF]">
+                with Our Team
+              </h2>
             </div>
-            <h2 className="text-4xl font-bold tracking-tight text-[#6448EF]">
-              with Our Team
-            </h2>
           </div>
           <p className="text-xl text-[#71717A] leading-relaxed">
             Transform your development workflow with our AI-powered tools and
