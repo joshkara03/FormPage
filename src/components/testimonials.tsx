@@ -3,29 +3,32 @@ import { useEffect, useRef, useState } from "react";
 
 const testimonials = [
   {
-    text: "Tempo Labs has completely transformed how we build our frontend. The AI integration is seamless and intuitive.",
-    author: "John Doe",
-    role: "CTO, TechCorp",
-    image: "https://api.dicebear.com/7.x/avataaars/svg?seed=john",
+    text: "Tempo helped us build in 30 minutes what other developers were quoting me 2 weeks to build. We now move really, really quickly as a company with Tempo handling UI/UX",
+    author: "Aaron Myran",
+    role: "Co-founder, Chorus AI",
+    image:
+      "https://bzcxxroyylqcbnrgyxhx.supabase.co/storage/v1/object/public/TempoBookFrom//1738937344102.jfif",
   },
   {
-    text: "The visual development experience combined with AI is revolutionary. It's exactly what we needed!",
-    author: "Alice Smith",
-    role: "Lead Developer, StartupX",
-    image: "https://api.dicebear.com/7.x/avataaars/svg?seed=alice",
+    text: "What really blew us away was how quickly the designs were done and how fast we were able to get them implemented into our Webapp. We are incredibly happy with the price and value we're getting form Tempo. sometimes we wonder if they're even making money on us",
+    author: "Ronald Ding",
+    role: "CTO, Shadeform YC23",
+    image:
+      "https://bzcxxroyylqcbnrgyxhx.supabase.co/storage/v1/object/public/TempoBookFrom//1deaec552b7f744f94d76b79ae296d69016a5577.jpg",
   },
   {
-    text: "Game-changing platform for our development team. The AI assistance is spot-on.",
-    author: "Mike Johnson",
-    role: "VP Engineering, TechFlow",
-    image: "https://api.dicebear.com/7.x/avataaars/svg?seed=mike",
-  },
-  {
-    text: "The combination of visual editing and AI code generation is brilliant. It's the future of web development.",
-    author: "Sarah Chen",
-    role: "Frontend Architect, InnovateCo",
+    text: "Thank you Tempo! The developement time for my company internal system was months for simple features. Now, I'm leading the UI and the Devs only work on the API. In 1 week, I can deliver insane quanity of work!",
+    author: "M-Sants on Reddit",
+    role: " ",
     image:
       "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_512.png",
+  },
+  {
+    text: "Today's meeting was top-notch. Tempo was proactive and putting forth great ideas and results for our website",
+    author: "Joseph Chakkalakal",
+    role: "Director of Market Selection, NOVOS FiBER",
+    image:
+      "https://bzcxxroyylqcbnrgyxhx.supabase.co/storage/v1/object/public/TempoBookFrom//1609351006115.jfif",
   },
 ];
 

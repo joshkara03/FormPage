@@ -3,7 +3,7 @@ import { Card } from "@/components/ui/card";
 import CalendlyWidget from "./calendly-widget";
 import React from "react";
 import Testimonials from "./testimonials";
-import { TempoLogo } from "./ui/tempo-logo";
+import { TempoLogo } from "@/components/ui/tempo-logo";
 
 export default function BookingPage() {
   return (
@@ -25,9 +25,9 @@ export default function BookingPage() {
             </div>
           </div>
           <p className="text-xl text-[#71717A] leading-relaxed">
-            Transform your development workflow with our AI-powered tools and
-            expert guidance. Our team will help you implement Tempo Labs in your
-            organization.
+            We 10X the speed of design & development using the perfect
+            combination of AI + human expertise. Our design, developer and
+            product team slots into your organization to help you ship faster
           </p>
           {/* Testimonials */}
           <Testimonials />
